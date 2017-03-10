@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ojdeploy-log>
+  <deploy-task>
+    <target>
+      <profile>EjemploSonarUnit_ViewController_webapp1</profile>
+      <workspace>/C:/JDeveloper/mywork11R9/EjemploSonarUnit/EjemploSonarUnit.jws</workspace>
+      <project>ViewController.jpr</project>
+      <output-file>/C:/JDeveloper/mywork11R9/EjemploSonarUnit/ViewController/deploy/EjemploSonarUnit_ViewController_webapp1.war</output-file>
+    </target>
+    <status exitcode="0">SUCCESS</status>
+  </deploy-task>
+  <summary>
+    <start-time>2017-03-08 18:36:17 CET</start-time>
+    <end-time>2017-03-08 18:36:24 CET</end-time>
+    <total-tasks>1</total-tasks>
+    <failures>0</failures>
+    <status exitcode="0">SUCCESS</status>
+  </summary>
+</ojdeploy-log>

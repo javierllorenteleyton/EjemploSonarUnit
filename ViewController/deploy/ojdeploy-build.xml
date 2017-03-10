@@ -1,0 +1,10 @@
+<?xml version = '1.0' standalone = 'yes' ?>
+<ojdeploy-build>
+  <deploy>
+    <parameter name="workspace" value="C:\JDeveloper\mywork11R9\EjemploSonarUnit\EjemploSonarUnit.jws"/>
+    <parameter name="project" value="ViewController"/>
+    <parameter name="profile" value="*"/>
+    <parameter name="nocompile" value="false"/>
+    <parameter name="outputfile" value="C:\JDeveloper\mywork11R9\EjemploSonarUnit\ViewController\deploy\${profile.name}"/>
+  </deploy>
+</ojdeploy-build>

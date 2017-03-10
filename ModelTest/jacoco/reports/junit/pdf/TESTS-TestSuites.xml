@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="AVTP113" id="0" name="AllTests" package="com.avanttic.ejemplo.test" tests="1" time="0.035" timestamp="2017-03-09T20:49:02">
+      <properties>
+          <property name="java.vendor" value="Sun Microsystems Inc." />
+
+          <property name="coverage.summaryxml.dir" value="./reports/cobertura-summary-xml" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+
+          <property name="os.name" value="Windows NT (unknown)" />
+
+          <property name="sun.boot.class.path" value="C:\Oracle\Middleware11R9\jdk160_29\jre\lib\resources.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\rt.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\sunrsasign.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\jsse.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\jce.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\charsets.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\modules\jdk.boot.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\classes" />
+
+          <property name="reports.html.dir" value="./reports/junit-html" />
+
+          <property name="TODAY" value="March 9 2017" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="ant.home" value="C:\Oracle\Middleware11R9\jdeveloper\ant" />
+
+          <property name="java.runtime.version" value="1.6.0_29-b11" />
+
+          <property name="cobertura.dir" value="./lib//cobertura/" />
+
+          <property name="user.name" value="javier.llorente" />
+
+          <property name="testresults.dir" value="testResults" />
+
+          <property name="javac.deprecation" value="off" />
+
+          <property name="javax.xml.parsers.SAXParserFactory" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl" />
+
+          <property name="user.language" value="es" />
+
+          <property name="sun.boot.library.path" value="C:\Oracle\Middleware11R9\jdk160_29\jre\bin" />
+
+          <property name="reports.dir" value="./reports" />
+
+          <property name="ant.project.name" value="ModelTest" />
+
+          <property name="DSTAMP" value="20170309" />
+
+          <property name="java.version" value="1.6.0_29" />
+
+          <property name="coverage.html.dir" value="./reports/cobertura-html" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="32" />
+
+          <property name="java.endorsed.dirs" value="C:\Oracle\Middleware11R9\jdk160_29\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="50.0" />
+
+          <property name="user.country" value="ES" />
+
+          <property name="java.home" value="C:\Oracle\Middleware11R9\jdk160_29\jre" />
+
+          <property name="javax.xml.parsers.DocumentBuilderFactory" value="com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\buildTest.xml" />
+
+          <property name="os.version" value="6.2" />
+
+          <property name="ant.file.ModelTest" value="C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\libraryTest.xml" />
+
+          <property name="javac.debug" value="on" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="20.4-b02" />
+
+          <property name="user.variant" value="" />
+
+          <property name="output.dir" value="classes" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="_jacoco.agentFile" value="C:\Users\JAVIER~1.LLO\AppData\Local\Temp\jacocoagent7386900361676579235.jar" />
+
+          <property name="reports.xml.dir" value="./reports/junit-xml" />
+
+          <property name="user.home" value="C:\Users\javier.llorente" />
+
+          <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="coverage.xml.dir" value="./reports/cobertura-xml" />
+
+          <property name="oracle.home" value="C:\Oracle\Middleware11R9\jdeveloper\" />
+
+          <property name="java.library.path" value="C:\Oracle\Middleware11R9\jdk160_29\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;c:\app\javier.llorente\product\11.2.0\client_1\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\OpenVPN\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Users\javier.llorente\AppData\Local\Microsoft\WindowsApps;;." />
+
+          <property name="java.vendor.url" value="http://java.sun.com/" />
+
+          <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.avanttic.ejemplo.test.AllTests filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\jacoco\reports\junit\TEST-com.avanttic.ejemplo.test.AllTests.xml crashfile=C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\junitvmwatcher2602019823542400222.properties propsfile=C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\junit794265945831503214.properties" />
+
+          <property name="java.class.path" value="C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\classes;C:\Oracle\Middleware11R9\jdeveloper\ant\lib\junit.jar;C:\Oracle\Middleware11R9\jdeveloper\ant\lib\ant-launcher.jar;C:\Oracle\Middleware11R9\jdeveloper\ant\lib\ant.jar;C:\Oracle\Middleware11R9\jdeveloper\ant\lib\ant-junit.jar;C:\Users\JAVIER~1.LLO\AppData\Local\Temp\jacocoagent7386900361676579235.jar" />
+
+          <property name="ant.version" value="Apache Ant version 1.7.1 compiled on June 27 2008" />
+
+          <property name="TSTAMP" value="2149" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.0" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\JAVIER~1.LLO\AppData\Local\Temp\" />
+
+          <property name="javac.nowarn" value="off" />
+
+          <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+
+          <property name="instrumented.dir" value="./instrumented" />
+
+          <property name="os.arch" value="x86" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Oracle\Middleware11R9\jdk160_29\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest" />
+
+          <property name="jacoco.dir" value="jacoco" />
+
+          <property name="line.separator" value=" " />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+
+          <property name="basedir" value="C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest" />
+
+          <property name="jacoco.reports.dir" value="jacoco/reports" />
+
+          <property name="ant.java.version" value="1.6" />
+
+          <property name="ant.core.lib" value="C:\Oracle\Middleware11R9\jdeveloper\ant\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.6" />
+
+          <property name="jdev.ant.port" value="54712" />
+
+          <property name="javax.xml.transform.TransformerFactory" value="com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl" />
+
+      </properties>
+
+      <testcase classname="junit.framework.TestSuite$1" name="warning" time="0.0060">
+          <failure message="No tests found in com.avanttic.ejemplo.test.AllTests" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: No tests found in com.avanttic.ejemplo.test.AllTests
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="AVTP113" id="1" name="Ejemplo2Test" package="com.avanttic.ejemplo.test" tests="1" time="0.044" timestamp="2017-03-09T23:07:33">
+      <properties>
+          <property name="java.vendor" value="Sun Microsystems Inc." />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+
+          <property name="os.name" value="Windows NT (unknown)" />
+
+          <property name="sun.boot.class.path" value="C:\Oracle\Middleware11R9\jdk160_29\jre\lib\resources.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\rt.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\sunrsasign.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\jsse.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\jce.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\charsets.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\modules\jdk.boot.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\classes" />
+
+          <property name="ant.file.imported" value="C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\junitpdfreport\build-junitpdfreport.xml" />
+
+          <property name="cobertura.summaryxml.dir" value="./cobertura/cobertura-summary-xml" />
+
+          <property name="TODAY" value="March 10 2017" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="ant.home" value="C:\Oracle\Middleware11R9\jdeveloper\ant" />
+
+          <property name="java.runtime.version" value="1.6.0_29-b11" />
+
+          <property name="cobertura.dir" value="./cobertura" />
+
+          <property name="user.name" value="javier.llorente" />
+
+          <property name="testresults.dir" value="testResults" />
+
+          <property name="javac.deprecation" value="off" />
+
+          <property name="javax.xml.parsers.SAXParserFactory" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl" />
+
+          <property name="user.language" value="es" />
+
+          <property name="cobertura.xml.dir" value="./cobertura/cobertura-xml" />
+
+          <property name="sun.boot.library.path" value="C:\Oracle\Middleware11R9\jdk160_29\jre\bin" />
+
+          <property name="ant.project.name" value="ModelTest" />
+
+          <property name="DSTAMP" value="20170310" />
+
+          <property name="java.version" value="1.6.0_29" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="32" />
+
+          <property name="java.endorsed.dirs" value="C:\Oracle\Middleware11R9\jdk160_29\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="cobertura.junit.html.dir" value="./cobertura/junit-html" />
+
+          <property name="java.class.version" value="50.0" />
+
+          <property name="test.output.dir" value="classes" />
+
+          <property name="user.country" value="ES" />
+
+          <property name="java.home" value="C:\Oracle\Middleware11R9\jdk160_29\jre" />
+
+          <property name="javax.xml.parsers.DocumentBuilderFactory" value="com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\buildJacoco.xml" />
+
+          <property name="os.version" value="6.2" />
+
+          <property name="ant.file.ModelTest" value="C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\libraryTest.xml" />
+
+          <property name="javac.debug" value="on" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="20.4-b02" />
+
+          <property name="user.variant" value="" />
+
+          <property name="cobertura.instrumented.dir" value="././cobertura/instrumented" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="_jacoco.agentFile" value="C:\Users\JAVIER~1.LLO\AppData\Local\Temp\jacocoagent4845097372089163023.jar" />
+
+          <property name="user.home" value="C:\Users\javier.llorente" />
+
+          <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="oracle.home" value="C:\Oracle\Middleware11R9\jdeveloper\" />
+
+          <property name="java.library.path" value="C:\Oracle\Middleware11R9\jdk160_29\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;c:\app\javier.llorente\product\11.2.0\client_1\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\OpenVPN\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Users\javier.llorente\AppData\Local\Microsoft\WindowsApps;;." />
+
+          <property name="java.vendor.url" value="http://java.sun.com/" />
+
+          <property name="cobertura.junit.xml.dir" value="./cobertura/junit-xml" />
+
+          <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+
+          <property name="cobertura.lib.dir" value="./lib/cobertura/" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\junittestcases1245694559793022922.properties filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\jacoco\reports\junit\IGNORETHIS.xml crashfile=C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\junitvmwatcher2203125295666900933.properties propsfile=C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\junit6652499581286687365.properties" />
+
+          <property name="java.class.path" value="C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\classes;C:\JDeveloper\mywork11R9\EjemploSonarUnit\Model\classes;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\etc\ant-bootstrap.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-antlr.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-apache-bcel.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-apache-bsf.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-apache-log4j.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-apache-oro.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-apache-regexp.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-apache-resolver.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-apache-xalan2.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-commons-logging.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-commons-net.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-jai.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-javamail.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-jdepend.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-jmf.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-jsch.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-junit.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-junit4.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-launcher.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-netrexx.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-swing.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-testutil.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\jacoco\lib\jacocoagent.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\jacoco\lib\jacocoant.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\jacoco\lib\org.jacoco.agent-0.5.6.201201232323.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\jacoco\lib\org.jacoco.ant-0.5.6.201201232323.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\jacoco\lib\org.jacoco.core-0.5.6.201201232323.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\jacoco\lib\org.jacoco.report-0.5.6.201201232323.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\junitpdfreport\lib\avalon-framework-4.2.0.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\junitpdfreport\lib\batik-util-1.7.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\junitpdfreport\lib\commons-io-1.1.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\junitpdfreport\lib\commons-logging-1.0.4.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\junitpdfreport\lib\fop.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\junitpdfreport\lib\xmlgraphics-commons-1.1-snapshot.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\cobertura.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\asm-5.0.1.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\asm-analysis-5.0.1.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\asm-commons-5.0.1.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\asm-tree-5.0.1.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\asm-util-5.0.1.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\commons-lang3-3.3.2.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\hamcrest-core-1.3.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\jaxen-1.1.4.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\jetty-6.1.14.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\jetty-util-6.1.14.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\junit-4.11.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\logback-classic-1.0.13.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\logback-core-1.0.13.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\oro-2.0.8.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\servlet-api-2.5-6.1.14.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\slf4j-api-1.7.5.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\test\junit\junit-4.10.jar;C:\Oracle\Middleware11R9\jdeveloper\ant\lib\junit.jar;C:\Oracle\Middleware11R9\jdeveloper\ant\lib\ant-launcher.jar;C:\Oracle\Middleware11R9\jdeveloper\ant\lib\ant.jar;C:\Oracle\Middleware11R9\jdeveloper\ant\lib\ant-junit.jar;C:\Users\JAVIER~1.LLO\AppData\Local\Temp\jacocoagent4845097372089163023.jar" />
+
+          <property name="ant.version" value="Apache Ant version 1.7.1 compiled on June 27 2008" />
+
+          <property name="cobertura.html.dir" value="./cobertura/cobertura-html" />
+
+          <property name="TSTAMP" value="0007" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.0" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\JAVIER~1.LLO\AppData\Local\Temp\" />
+
+          <property name="javac.nowarn" value="off" />
+
+          <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="os.arch" value="x86" />
+
+          <property name="java.ext.dirs" value="C:\Oracle\Middleware11R9\jdk160_29\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest" />
+
+          <property name="jacoco.dir" value="jacoco" />
+
+          <property name="line.separator" value="
+" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+
+          <property name="basedir" value="C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest" />
+
+          <property name="jacoco.reports.dir" value="jacoco/reports" />
+
+          <property name="ant.java.version" value="1.6" />
+
+          <property name="ant.core.lib" value="C:\Oracle\Middleware11R9\jdeveloper\ant\lib\ant.jar" />
+
+          <property name="xmx" value="-Xmx1024m" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="xms" value="-Xms256m" />
+
+          <property name="imported.basedir" value="C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\junitpdfreport" />
+
+          <property name="java.specification.version" value="1.6" />
+
+          <property name="jdev.ant.port" value="55406" />
+
+          <property name="javax.xml.transform.TransformerFactory" value="com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl" />
+
+      </properties>
+
+      <testcase classname="com.avanttic.ejemplo.test.Ejemplo2Test" name="test" time="0.0030" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="AVTP113" id="2" name="EjemploTest" package="com.avanttic.ejemplo.test" tests="1" time="0.0040" timestamp="2017-03-09T23:07:33">
+      <properties>
+          <property name="java.vendor" value="Sun Microsystems Inc." />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+
+          <property name="os.name" value="Windows NT (unknown)" />
+
+          <property name="sun.boot.class.path" value="C:\Oracle\Middleware11R9\jdk160_29\jre\lib\resources.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\rt.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\sunrsasign.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\jsse.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\jce.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\charsets.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\lib\modules\jdk.boot.jar;C:\Oracle\Middleware11R9\jdk160_29\jre\classes" />
+
+          <property name="ant.file.imported" value="C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\junitpdfreport\build-junitpdfreport.xml" />
+
+          <property name="cobertura.summaryxml.dir" value="./cobertura/cobertura-summary-xml" />
+
+          <property name="TODAY" value="March 10 2017" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="ant.home" value="C:\Oracle\Middleware11R9\jdeveloper\ant" />
+
+          <property name="java.runtime.version" value="1.6.0_29-b11" />
+
+          <property name="cobertura.dir" value="./cobertura" />
+
+          <property name="user.name" value="javier.llorente" />
+
+          <property name="testresults.dir" value="testResults" />
+
+          <property name="javac.deprecation" value="off" />
+
+          <property name="javax.xml.parsers.SAXParserFactory" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl" />
+
+          <property name="user.language" value="es" />
+
+          <property name="cobertura.xml.dir" value="./cobertura/cobertura-xml" />
+
+          <property name="sun.boot.library.path" value="C:\Oracle\Middleware11R9\jdk160_29\jre\bin" />
+
+          <property name="ant.project.name" value="ModelTest" />
+
+          <property name="DSTAMP" value="20170310" />
+
+          <property name="java.version" value="1.6.0_29" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="32" />
+
+          <property name="java.endorsed.dirs" value="C:\Oracle\Middleware11R9\jdk160_29\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="cobertura.junit.html.dir" value="./cobertura/junit-html" />
+
+          <property name="java.class.version" value="50.0" />
+
+          <property name="test.output.dir" value="classes" />
+
+          <property name="user.country" value="ES" />
+
+          <property name="java.home" value="C:\Oracle\Middleware11R9\jdk160_29\jre" />
+
+          <property name="javax.xml.parsers.DocumentBuilderFactory" value="com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\buildJacoco.xml" />
+
+          <property name="os.version" value="6.2" />
+
+          <property name="ant.file.ModelTest" value="C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\libraryTest.xml" />
+
+          <property name="javac.debug" value="on" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="20.4-b02" />
+
+          <property name="user.variant" value="" />
+
+          <property name="cobertura.instrumented.dir" value="././cobertura/instrumented" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="_jacoco.agentFile" value="C:\Users\JAVIER~1.LLO\AppData\Local\Temp\jacocoagent4845097372089163023.jar" />
+
+          <property name="user.home" value="C:\Users\javier.llorente" />
+
+          <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="oracle.home" value="C:\Oracle\Middleware11R9\jdeveloper\" />
+
+          <property name="java.library.path" value="C:\Oracle\Middleware11R9\jdk160_29\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;c:\app\javier.llorente\product\11.2.0\client_1\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\OpenVPN\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Users\javier.llorente\AppData\Local\Microsoft\WindowsApps;;." />
+
+          <property name="java.vendor.url" value="http://java.sun.com/" />
+
+          <property name="cobertura.junit.xml.dir" value="./cobertura/junit-xml" />
+
+          <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+
+          <property name="cobertura.lib.dir" value="./lib/cobertura/" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\junittestcases1245694559793022922.properties filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\jacoco\reports\junit\IGNORETHIS.xml crashfile=C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\junitvmwatcher2203125295666900933.properties propsfile=C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\junit6652499581286687365.properties" />
+
+          <property name="java.class.path" value="C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\classes;C:\JDeveloper\mywork11R9\EjemploSonarUnit\Model\classes;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\etc\ant-bootstrap.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-antlr.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-apache-bcel.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-apache-bsf.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-apache-log4j.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-apache-oro.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-apache-regexp.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-apache-resolver.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-apache-xalan2.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-commons-logging.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-commons-net.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-jai.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-javamail.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-jdepend.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-jmf.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-jsch.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-junit.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-junit4.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-launcher.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-netrexx.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-swing.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant-testutil.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\ant\lib\ant.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\jacoco\lib\jacocoagent.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\jacoco\lib\jacocoant.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\jacoco\lib\org.jacoco.agent-0.5.6.201201232323.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\jacoco\lib\org.jacoco.ant-0.5.6.201201232323.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\jacoco\lib\org.jacoco.core-0.5.6.201201232323.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\jacoco\lib\org.jacoco.report-0.5.6.201201232323.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\junitpdfreport\lib\avalon-framework-4.2.0.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\junitpdfreport\lib\batik-util-1.7.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\junitpdfreport\lib\commons-io-1.1.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\junitpdfreport\lib\commons-logging-1.0.4.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\junitpdfreport\lib\fop.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\junitpdfreport\lib\xmlgraphics-commons-1.1-snapshot.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\cobertura.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\asm-5.0.1.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\asm-analysis-5.0.1.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\asm-commons-5.0.1.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\asm-tree-5.0.1.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\asm-util-5.0.1.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\commons-lang3-3.3.2.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\hamcrest-core-1.3.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\jaxen-1.1.4.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\jetty-6.1.14.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\jetty-util-6.1.14.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\junit-4.11.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\logback-classic-1.0.13.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\logback-core-1.0.13.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\oro-2.0.8.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\servlet-api-2.5-6.1.14.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\cobertura\lib\slf4j-api-1.7.5.jar;C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\test\junit\junit-4.10.jar;C:\Oracle\Middleware11R9\jdeveloper\ant\lib\junit.jar;C:\Oracle\Middleware11R9\jdeveloper\ant\lib\ant-launcher.jar;C:\Oracle\Middleware11R9\jdeveloper\ant\lib\ant.jar;C:\Oracle\Middleware11R9\jdeveloper\ant\lib\ant-junit.jar;C:\Users\JAVIER~1.LLO\AppData\Local\Temp\jacocoagent4845097372089163023.jar" />
+
+          <property name="ant.version" value="Apache Ant version 1.7.1 compiled on June 27 2008" />
+
+          <property name="cobertura.html.dir" value="./cobertura/cobertura-html" />
+
+          <property name="TSTAMP" value="0007" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.0" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.io.tmpdir" value="C:\Users\JAVIER~1.LLO\AppData\Local\Temp\" />
+
+          <property name="javac.nowarn" value="off" />
+
+          <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="os.arch" value="x86" />
+
+          <property name="java.ext.dirs" value="C:\Oracle\Middleware11R9\jdk160_29\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest" />
+
+          <property name="jacoco.dir" value="jacoco" />
+
+          <property name="line.separator" value="
+" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+
+          <property name="basedir" value="C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest" />
+
+          <property name="jacoco.reports.dir" value="jacoco/reports" />
+
+          <property name="ant.java.version" value="1.6" />
+
+          <property name="ant.core.lib" value="C:\Oracle\Middleware11R9\jdeveloper\ant\lib\ant.jar" />
+
+          <property name="xmx" value="-Xmx1024m" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="xms" value="-Xms256m" />
+
+          <property name="imported.basedir" value="C:\JDeveloper\mywork11R9\EjemploSonarUnit\ModelTest\lib\ant\junitpdfreport" />
+
+          <property name="java.specification.version" value="1.6" />
+
+          <property name="jdev.ant.port" value="55406" />
+
+          <property name="javax.xml.transform.TransformerFactory" value="com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl" />
+
+      </properties>
+
+      <testcase classname="com.avanttic.ejemplo.test.EjemploTest" name="test" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
