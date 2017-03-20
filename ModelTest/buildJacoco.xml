@@ -14,7 +14,7 @@
 <mkdir dir="${jacoco.junit.html.dir}"/>
 <mkdir dir="${jacoco.junit.pdf.dir}"/>
   </target>
-  <target name="jacoco" depends="jacoco.init,test.init,test.compile"
+  <target name="jacoco" depends="jacoco.init,test.all"
           description="Run unit tests and code coverage reporting">
     <jacoco:coverage destfile="${jacoco.dir}/jacoco.exec"
                      xmlns:jacoco="antlib:org.jacoco.ant">
@@ -24,7 +24,7 @@
         <jvmarg value="${xmx}"/>
         <classpath refid="classpath.jacoco.test"/>
         <formatter type="xml"/>
-        <batchtest todir="${jacoco.class.dir}">
+        <batchtest todir="${jacoco.junit.xml.dir}">
           <fileset dir="./classes">
             <include name="**/*Test.class"/>
           </fileset>
